@@ -1,0 +1,43 @@
+Arguments: 
+  F:\Software\Nodejs\node.exe F:\Software\yarn\bin\yarn.js build
+
+PATH: 
+  F:\Software\cmder\vendor\git-for-windows\mingw64\bin;F:\Software\cmder\vendor\git-for-windows\usr\bin;C:\Users\离冥\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;F:\Software\Nodejs;F:\Software\yarn\bin;F:\Python\Scripts;F:\Python;C:\Users\离冥\AppData\Local\Microsoft\WindowsApps;F:\Microsoft VS Code\bin;C:\Users\离冥\AppData\Roaming\npm;C:\Users\离冥\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\离冥\Desktop\饥人谷\导航-1\package.json: Unexpected token { in JSON at position 108
+      at JSON.parse (<anonymous>)
+      at F:\Software\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (F:\Software\yarn\lib\cli.js:310:30)
+      at F:\Software\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "scripts": {
+      "build":"rm -rf dist && parcel build src/index.html --no-minify --public-url ./"
+    }
+  }
+  {
+    "name": "导航-1",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:dawnliming/daohang-1.git",
+    "author": "liming <759297569@qq.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
